@@ -6,26 +6,15 @@ dependencies:
   - python=3.10
   - numpy
   - scipy
-  - pandas
   - matplotlib
   - seaborn
   - scikit-learn
   - jupyter
-  - notebook
-  - ipywidgets
+  - pandas
   - tqdm
   - pillow
-  # Deep learning packages (uncomment as needed)
-  # - pytorch
-  # - tensorflow
-  # - keras
-  # - jax
-  # - flax
-  # Optional packages
   - pytest
-  - black
-  - flake8
   - pip
   - pip:
-    - wandb  # For experiment tracking
-    # Add other pip packages here
+    - wandb
+    # qdd PyTorch/TensorFlow later when needed for deeper networks
